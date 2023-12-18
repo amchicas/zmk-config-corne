@@ -49,21 +49,21 @@
                         >;
                 };
 
-/*                 lower_layer { */
-/**/
-/* // ----------------------------------------------------------------------------------------- */
-/* // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP | */
-/* // | BTCLR| HOME | END | PG_DN | PG_UP | DEL |   | LFT | DWN |  UP | RGT |     |      | */
-/* // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      | */
-/* //                    | GUI |     | SPC |   | ENT |     | ALT | */
-/*                         bindings = < */
-/*    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC */
-/*    &kp LCTRL &kp HOME &kp END &kp PG_DN &kp PG_UP &kp DEL   &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp F12  */
-/*    &kp LSHFT  &kp F1       &kp F2       &kp F3       &kp F4       &kp F5         &kp F6   &kp F7   &kp F8 &kp F9    &kp F10 &kp F11 */
-/*                                     &kp LGUI     &trans       &kp ESC      &kp SPACE  &mo MEDIA   &kp RALT */
-/*                         >; */
-/*                 }; */
-/**/
+                lower_layer {
+
+// -----------------------------------------------------------------------------------------
+// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
+// | BTCLR| HOME | END | PG_DN | PG_UP | DEL |   | LFT | DWN |  UP | RGT |     |      |
+// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
+   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
+   &kp LCTRL &kp HOME &kp END &kp PG_DN &kp PG_UP &kp DEL   &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp F12 
+   &kp LSHFT  &kp F1       &kp F2       &kp F3       &kp F4       &kp F5         &kp F6   &kp F7   &kp F8 &kp F9    &kp F10 &kp F11
+                                    &kp LGUI     &trans       &kp ESC      &kp SPACE  &mo MEDIA   &kp RALT
+                        >;
+                };
+
 /*                 raise_layer { */
 /**/
 /* // ----------------------------------------------------------------------------------------- */
