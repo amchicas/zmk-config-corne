@@ -64,20 +64,20 @@
                         >;
                 };
 
-/*                 raise_layer { */
-/**/
-/* // ----------------------------------------------------------------------------------------- */
-/* // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP | */
-/* // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   | */
-/* // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   | */
-/* //                    | GUI |     | SPC |   | ENT |     | ALT | */
-/*                         bindings = < */
-/*    &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC */
-/*    &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp LBKT  &kp RBKT &kp FSLH &kp EQUAL  &kp BSLH &kp MINUS */
-/*    &kp LSHFT &kp PSCRN   &kp INS &trans   &trans   &trans      &kp LBRC        &kp RBRC &kp UNDER &kp LBKT   &kp  &kp GRAVE */
-/*                              &kp LGUI &mo MEDIA   &kp ESC   &kp SPACE   &trans    &kp RALT */
-/*                         >; */
-/*                 }; */
+                raise_layer {
+
+// -----------------------------------------------------------------------------------------
+// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
+// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
+   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
+   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp LBKT  &kp RBKT &kp FSLH &kp EQUAL  &kp BSLH &kp MINUS
+   &kp LSHFT &kp PSCRN   &kp INS &trans   &trans   &trans      &kp LBRC        &kp RBRC &kp UNDER &kp LBKT   &trans  &kp GRAVE
+                             &kp LGUI &mo MEDIA   &kp ESC   &kp SPACE   &trans    &kp RALT
+                        >;
+                };
 /* media_layer { */
 /* // +------------------------------------------------------------------------------------+ */
 /* // |   TAB |     |     |     |     |     |         |     |     |     |     |     | BSPC | */
